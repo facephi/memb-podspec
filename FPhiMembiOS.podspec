@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/facephi/memb-podspec.git", :tag => "#{spec.version}" }
 
   #spec.ios.resources = "fphi-selphid-widget-resources-selphid-1.0.zip"
-  spec.ios.vendored_frameworks = "ApiManager.xcframework" , "NFCDocumentReader"
+  spec.ios.vendored_frameworks = 'ApiManager.xcframework' , 'NFCDocumentReader.xcframework'
 
   # Removed architecture for simulator
 
